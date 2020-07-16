@@ -1,0 +1,20 @@
+{
+  "name": "no-phone-formater",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist --declaration index.ts --target es5 --module commonjs --esModuleInterop"
+  },
+  "keywords": [
+    "phone",
+    "formater"
+  ],
+  "author": "Neuber Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "8.10.2",
+    "typescript": "3.9.6"
+  }
+}
